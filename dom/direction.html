@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myP">This is the text written from left to right.</p>
+    <button onclick="changeDirection()">Change Direction to Right</button>
+    <button onclick="changeDirection1()">Change Direction to Left</button>
+
+    <script>
+        const changeDirection = function(){
+            document.getElementById('myP').dir = "rtl";
+        }
+        const changeDirection1 = function(){
+            document.getElementById('myP').dir = "ltr";
+        }
+    </script>
+</body>
+</html>

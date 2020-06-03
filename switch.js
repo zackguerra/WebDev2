@@ -13,14 +13,12 @@ PayRate(hourlyRate)
 8. $21.60
 9. $22.60
 10. $23.60
-
 calculate gross salary for 2 weeks(80 hours)
 calculate net salary for 2 weeks
 if you work ovettime you will get paid 1.5 times more.
 1. their name
 2. payRate
 3. hoursWorked
-
 Name:
 PayRate:
 hourlyRate:
@@ -28,5 +26,4 @@ Gross Salary:
 Net Salary:
 cpp:
 ei:
-
 */
