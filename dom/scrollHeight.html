@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        #myDiv{
+            margin-top: 10px;
+            height: 250px;
+            width: 250px;
+            overflow: auto;
+        }
+        #content{
+            height: 800px;
+            width: 2000px;
+            padding: 10px;
+            background-color: coral;
+        }
+    </style> -->
+    <style>
+        #myDiv{
+            background: green;
+            height: 250px;
+            width: 250px;
+            overflow: auto;
+        }
+        #content{
+            height: 800px;
+            width: 2000px;
+            margin: 500px;
+            background-color: coral;
+        }
+    </style>
+
+</head>
+<body>
+    <button onclick="scrollHeightMethod()">Scroll Dimension</button>
+    <div id="myDiv">
+        <div id="content">JavaScript</div>
+    </div>
+    <h1 id="output"></h1>
+    <script>
+        // const scrollHeightMethod = function(){
+        //     const element = document.getElementById('content');
+        //     let y = element.scrollHeight;
+        //     let x = element.scrollWidth;
+        //     document.getElementById('output').innerHTML="Height: " + y + "px <br> Width: " + x + "px";
+        // }
+
+        // <!-- Scroll into view -->
+
+        const scrollMethod = function(){
+            let element = document.getElementById('content');
+            element.scrollIntoView();
+        }
+    </script>
+
+</body>
+</html>
