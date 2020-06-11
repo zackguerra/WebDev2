@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("button").click(function(){
+                //$("#div1").remove();
+                $("#div1").empty();
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <div id="div1" style="height: 100px; width: 300px; border: 1px solid black; background-color: yellow;"> Thisi is some text in this division.
+    <p>This is the first p</p>
+    <p>This is the second p</p>
+    </div>
+    <button>Remove and Empty</button>
+    
+</body>
+</html>
